@@ -3,6 +3,8 @@
 /**
  * main: Entry point
  *
+ *Descrption: Prints a message to the standard error
+ *
  * Return: Always 1 (success)
  */
 int main(void)
