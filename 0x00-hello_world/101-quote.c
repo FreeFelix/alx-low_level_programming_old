@@ -3,7 +3,7 @@
 /**
  * main: Entry point
  *
- *Descrption: Prints a message to the standard error
+ *Description: Initial short description that describe about the print standard libaries and some errors to handles.
  *
  * Return: Always 1 (success)
  */
