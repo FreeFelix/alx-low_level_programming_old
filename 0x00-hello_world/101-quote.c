@@ -1,9 +1,9 @@
 #include<stdio.h>
 #include<unistd.h>
 /**
- * main: Entry point
+ * main - Entry point of the program
  *
- *Description: Prints a message to the standard error.
+ *Description: Prints a message to the standard error and show another errors.
  *
  * Return: Always 1 (success)
  */
