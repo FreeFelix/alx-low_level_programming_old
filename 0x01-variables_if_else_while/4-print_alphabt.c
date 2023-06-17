@@ -9,7 +9,7 @@
 int main(void)
 {
 int i;
-for ( i=97; i < 127; i++)
+for (i = 97; i < 127; i++)
 {
 if (i != 101 && i != 113)
 {
@@ -17,5 +17,5 @@ putchar(i);
 }
 }
 putchar('\n');
-Return (0);
+return (0);
 }
