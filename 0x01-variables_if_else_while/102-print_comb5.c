@@ -6,9 +6,9 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{ 
-int q,p;
-for (q = 0; i < 100; i++)
+{
+int q, p;
+for (q = 0; q < 100; q++)
 {
 for (p = 0; p < 100; p++)
 {
