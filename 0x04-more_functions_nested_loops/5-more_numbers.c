@@ -2,22 +2,21 @@
 
 /**
  * more_numbers - print more numbers
- *
- * Return (void)
  */
+
 void more_numbers(void)
 {
-int i, j, First = 0, last = 0;
-for (i = 0; i <= 10; i++)
-{
-while (First <= last)
-{
-	_putchar(start > 9 ? (First / 10) + '0' : First + '0');
-	if (First > 9)
-		_putchar((First % 10) + '0');
-	First++;
+	int i, j;
+
+	for (i = 1; i <= 10; i++)
+	{
+		for (j = 0; j <= 14; j++)
+		{
+			if (j >= 10)
+				_putchar('1');
+			_putchar (j % 10 + '0');
+		}
+		_putchar('\n');
+	}
 }
-First = 0;
-putchar('\n');
-}
-}
+
