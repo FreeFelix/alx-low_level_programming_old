@@ -1,5 +1,9 @@
 #include "main.h"
-
+/**
+ * positive_or_negative - Function determines if is positive or negative
+ *
+ * Return: Success
+ */
 void positive_or_negative(int i)
 {
 if (i > 0)
@@ -10,7 +14,7 @@ else if (i < 0)
 {
 printf("%d is negative\n", i);
 }
-else 
+else
 {
 printf("%d is Zero\n", i);
 }
