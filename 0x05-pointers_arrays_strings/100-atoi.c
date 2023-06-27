@@ -17,18 +17,18 @@ leng = 0;
 f = 0;
 digit = 0;
 
-while (s[leng] != '\0')
-		leng++;
+while (s[len] != '\0')
+	len++;
 
-	while (i < leng && f == 0)
+	while (i < len && f == 0)
 	{
 		if (s[i] == '-')
-			++k;
+			++d;
 
 		if (s[i] >= '0' && s[i] <= '9')
 		{
 			digit = s[i] - '0';
-			if (k % 2)
+			if (d % 2)
 				digit = -digit;
 			n = n * 10 + digit;
 			f = 1;
@@ -38,10 +38,10 @@ while (s[leng] != '\0')
 		}
 		i++;
 	}
+
 	if (f == 0)
 		return (0);
 
 	return (n);
 }
-
 
