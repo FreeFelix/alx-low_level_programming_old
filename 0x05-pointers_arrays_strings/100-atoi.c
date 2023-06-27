@@ -8,17 +8,17 @@
  */
 int _atoi(char *s)
 {
-int i, k, n, leng, f, digit;
+	int i, d, n, len, f, digit;
 
-i = 0;
-k = 0;
-n = 0;
-leng = 0;
-f = 0;
-digit = 0;
+	i = 0;
+	d = 0;
+	n = 0;
+	len = 0;
+	f = 0;
+	digit = 0;
 
-while (s[len] != '\0')
-	len++;
+	while (s[len] != '\0')
+		len++;
 
 	while (i < len && f == 0)
 	{
@@ -44,4 +44,5 @@ while (s[len] != '\0')
 
 	return (n);
 }
+
 
