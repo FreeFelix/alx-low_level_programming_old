@@ -1,12 +1,5 @@
 #include <stdio.h>
 
-/**
- * main - print 98 number by placing only one line.
- *
- * Return: 0
- */
-
-
 int main(void)
 {
 int n;
