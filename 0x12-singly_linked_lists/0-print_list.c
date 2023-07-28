@@ -13,11 +13,11 @@ size_t c = 0;
 while (h)
 {
 	if (!h->str)
-		printf("[0] (nil)\n");
+	printf("[0] (nil)\n");
 	else
-		printf("[%d] %s\n", h->len, h->str);
-	c++;
+	printf("[%d] %s\n", h->len, h->str);
 	h = h->next;
+	c++;
 }
 return (c);
 }
